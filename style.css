@@ -4,13 +4,16 @@
     padding: 0;
 }
 
-main {
-    background: hsl(217, 54%, 11%);
+body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    background: hsl(217, 54%, 11%);
     height: 100vh;
 }
+
+main {}
 
 .container {
     width: 300px;
