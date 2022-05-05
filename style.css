@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+@media (max-width:300px) {
+    .container {
+        margin: 2rem 1rem;
+    }
 }
 
 body {
@@ -10,10 +17,10 @@ body {
     justify-content: center;
     align-items: center;
     background: hsl(217, 54%, 11%);
-    height: 100vh;
+    /* height: 100vh; */
+    margin: 4rem 1rem;
+    font-family: 'Outfit', sans-serif;
 }
-
-main {}
 
 .container {
     width: 300px;
@@ -21,7 +28,7 @@ main {}
     background: hsl(216, 50%, 16%);
     padding: 1.65rem;
     border-radius: 10px;
-    ;
+    /* align-self: center; */
 }
 
 .image-block img {
@@ -35,15 +42,17 @@ main {}
 
 h1 {
     color: hsl(0, 0%, 100%);
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     text-align: start;
     margin: 1.5rem 0 1rem 0;
+    font-weight: bolder;
 }
 
 .first-p {
     color: hsl(215, 51%, 70%);
     margin: 1rem 0;
     line-height: 1.5;
+    font-size: 0.9rem;
 }
 
 .inner-block-content {
@@ -54,7 +63,18 @@ h1 {
 
 .inner-1,
 .inner-2 {
-    color: hsl(0, 0%, 100%);
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+
+.inner-1 {
+    color: hsl(178, 100%, 50%);
+}
+
+.inner-block-content img {
+    margin-right: 5px;
 }
 
 hr {
@@ -66,16 +86,20 @@ hr {
 
 .avtar-block {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 .avtar-block img {
     width: 35px;
-    border: 2px solid wheat;
+    border: 2px solid hsl(0, 0%, 100%);
     border-radius: 50px;
 }
 
 .avtar-p {
+    color: hsl(215, 51%, 70%);
+}
+
+span {
     color: hsl(0, 0%, 100%);
 }
