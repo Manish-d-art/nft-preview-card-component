@@ -85,6 +85,7 @@ h1 {
 
 h1:hover {
     color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
 
 .first-p {
@@ -137,4 +138,13 @@ hr {
 
 .avtar-p {
     color: hsl(215, 51%, 70%);
+}
+
+.avtar-p span {
+    color: hsl(0, 0%, 100%);
+}
+
+.avtar-p span:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
 }
