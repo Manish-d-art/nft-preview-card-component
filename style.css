@@ -66,9 +66,10 @@ body {
     border-radius: 10px;
 }
 
-.image-block div:hover img {
+
+/* .image-block div:hover img {
     transform: scale(1.2);
-}
+} */
 
 .view-img:hover {
     background: url("assets/images/icon-view.svg") rgba(0, 255, 247, 0.5) no-repeat center;
